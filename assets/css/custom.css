@@ -1,0 +1,30 @@
+.dt-responsive {
+    overflow: auto;
+}
+
+.dt-responsive th:not([style]), .dt-responsive td {
+    white-space: nowrap;
+    text-align: center;
+}
+
+.wholesalername {
+    border-radius: 5px;
+}
+
+.h-limit {
+    max-height: 20rem;
+}
+
+.text-overflow-control {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.select2-container .select2-selection--single .select2-selection__rendered {
+    text-align: left;
+}
+
+.side-nav-item.active a{
+    color: var(--ct-dark-menu-item-active) !important;
+}
